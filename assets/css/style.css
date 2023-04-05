@@ -1,0 +1,260 @@
+
+@font-face {
+    font-family: 'klavika';
+    src: url('../fonts/Klavika/KlavikaLight-Plain.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'klavika';
+    src: url('../fonts/Klavika/KlavikaRegular-TF.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'klavika';
+    src: url(../fonts/Klavika/KlavikaBoldBold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+* { box-sizing: border-box; }
+
+hr{  width: 50%; display:block; margin:auto; }
+
+.hr-home{margin-top: 2rem;}
+
+body{ 
+    font-family: 'klavika', sans-serif; 
+    background-color: #f1f1f1;
+    color: #686869;
+}
+
+header{ background-color: #fff; }
+
+#preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img-preloader{ width: 80rem;}
+
+.hidden{ overflow: hidden; }
+
+img{
+    width: 100%;
+}
+
+.shop-container{
+    width: 75%;
+}
+
+.logo-shop {
+    display:block;
+    margin:auto;
+}
+
+h1{ 
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+b{ font-weight: 700; }
+
+.full-row{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+.h1-home{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin: 4rem;
+
+}
+
+.spacer-row{
+    height: 5rem;
+}
+
+.two-columns{
+    columns: 2; 
+    -webkit-columns: 2; 
+    -moz-columns: 2; 
+}
+
+.list-service li{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.li-bg{
+    font-size: 19px !important;
+}
+
+.btn-demo{
+    text-decoration: none;
+    color: #686869;
+    text-align: center;
+    border: solid #686869 1px;
+    padding: 1rem 30%; 
+}
+
+.btn-demo:hover{
+    text-decoration: none;
+    color: #fff;
+    border: solid #686869 1px;
+    background-color: #686869;
+    margin-bottom: 4rem;
+}
+
+.text{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.text-bgst{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.text-bg{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.super-img{
+    position:absolute;
+}
+
+.video-home {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.contenedor{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.parallax{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.parallax-e{ background-image: url(../img/e-learning/exa-E-learning.gif); }
+.parallax-b{ background-image: url(../img/branding/exa-Branding.gif); }
+
+.footer{
+    position: absolute;
+    bottom: 0 !important;
+}
+
+.legals-container{
+    background-color: #686869;
+}
+
+.legals-container p, .legals-container a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.legals-container a:hover{
+    font-weight: bold;
+}
+
+.mobile{ display: none; }
+
+.banner-img{
+    margin-top: 2.5rem;
+}
+
+.line-contact{
+    border: solid 1.5px #3B3B39 !important;
+}
+
+.thumb-video:hover{
+    cursor: pointer;
+    filter: opacity(.7);
+}
+
+.img-social-icon:hover{
+    filter: opacity(.7);
+}
+
+.spacer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.solutions-section{ margin-bottom: 3rem;}
+
+@media screen and (max-width: 1100px) {
+    h1{ 
+        font-size: 18px;
+    }  
+    .li-bg{ 
+        font-size: 14px;
+    }      
+}
+
+@media screen and (max-width: 800px) {
+
+    .full-row { height: auto; }
+    .mobile{ display: block; }
+    .desk{ display: none; }
+    .banner-service{ margin: 2rem 0; }
+
+    .animate-icon{ margin-bottom: 3rem; }
+
+    .li-bg{ 
+        font-size: 14px;
+    }  
+
+    .hr-home{margin-top: 0rem;}
+
+    .h1-home{margin: 2rem; font-size: 20px;}
+
+    .video-home { margin-bottom: 3rem;}
+    
+    .solutions-section{ margin-bottom: 0rem;}
+
+    .not-spacer{ margin-top: -6rem; }
+
+    .contenedor{ height: 180px; }
+
+    .title{ font-size: 20px !important; }
+
+    .spacer-row{ height: 1rem;}
+
+    .text-bgst{ font-size: 27px; }
+
+    .text-bg{ font-size: 20px; }
+
+    .shop-container{ width: 100%; }
+
+    .logo-shop{ width: 50%; }
+
+    .text-apps{ text-align: center; }
+}

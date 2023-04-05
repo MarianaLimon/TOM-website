@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.logo { margin-left: -1rem; }
+
+.logo-header{ width: 6rem; }
+
+.fa-bars, .fa-solid{ 
+    font-size: 32px; 
+    cursor:pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgba(255, 255, 255, 0.86); */
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 100;
+}
+  
+.overlay-content {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.sub-overlay-content {
+    list-style: none;
+    display: none;
+}
+
+.active{ display: block; }
+
+.solutions, .active{ margin-left: -8px; }
+  
+.overlay a, .solutions {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 34px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus, .solutions:hover {
+    color: #b8b8b8;
+}
+  
+.closebtn { font-size: 60px; }
+
+.nav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.closebtn { margin-left: 4rem; }
+
+.img-social-icon{ width: 3rem; }
+
+.social-buttons-nav{
+    display: flex;
+    margin-left: 4rem;
+}
+  
+@media screen and (max-width: 800px) {
+
+    .overlay a {font-size: 20px}    
+    .nav-content { margin-top: 1.2rem; }
+    .closebtn{ margin-left: 2rem; }
+    .overlay-content { margin-left: 0rem; }
+    .social-buttons-nav { margin-left: 2rem; }
+
+}

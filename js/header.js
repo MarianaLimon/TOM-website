@@ -34,7 +34,7 @@ header.innerHTML = `
                 <i class="fa-solid fa-bars" onclick="openNav()"></i>
             </div>
             <div class="logo">
-                <a href="index.html"><img src="/assets/img/logo.png" id="logo" class="logo-header"></a>
+                <a href="index.html"><img src="https://limonyya.com/TOM/assets/img/logo.png" id="logo" class="logo-header"></a>
             </div>
             <div></div>
         </div> 

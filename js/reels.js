@@ -4,25 +4,25 @@ const videos = [
     {
         title: "TOM Demo Reel Branding",
         url: "https://www.youtube.com/embed/syneQNDuidk?rel=0&loop=1",
-        img: "../assets/img/mini-reels/branding.png",
+        img: "https://limonyya.com/TOM/assets/img/mini-reels/branding.png",
         alt: "Vid4"
     },
     {
         title: "Demo Reel Arquitectura de Software",
         url: "https://www.youtube.com/embed/8KuNIzqXN6A?rel=0&loop=1",
-        img: "../assets/img/mini-reels/arq-software.png",
+        img: "https://limonyya.com/TOM/assets/img/mini-reels/arq-software.png",
         alt: "Vid3"
     },
     {
         title: "Demo Reel Producción Audiovisual",
         url: "https://www.youtube.com/embed/BG3cVZzIZ08?rel=0&loop=1;",
-        img: "../assets/img/mini-reels/prod-audiov.png",
+        img: "https://limonyya.com/TOM/assets/img/mini-reels/prod-audiov.png",
         alt: "Vid2"
     },
     {
         title: "Demo Reel Tecnología e-Learning",
         url: "https://www.youtube.com/embed/lLCqQxy7ctM?rel=0&loop=1;",
-        img: "../assets/img/mini-reels/e-learning.png",
+        img: "https://limonyya.com/TOM/assets/img/mini-reels/e-learning.png",
         alt: "Vid1"
     }
 ]

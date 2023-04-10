@@ -210,6 +210,16 @@ b{ font-weight: 700; }
 
 .solutions-section{ margin-bottom: 3rem;}
 
+.contact-link{
+    text-decoration: none;
+    color: #686869;
+}
+
+.contact-link:hover{
+    text-decoration: none;
+    color: #686869;
+}
+
 @media screen and (max-width: 1100px) {
     h1{ 
         font-size: 18px;

@@ -20,7 +20,7 @@ header.innerHTML = `
         </ul>
 
         <div class="social-buttons-nav">
-            <a href="#" class='d-none'><img src="assets/img/LKND.png" alt="" class='img-social-icon'></a>
+            <a href="https://www.linkedin.com/company/top-of-mind-communication-consultor%C3%ADa/" target='_blank'><img src="assets/img/LKND.png" alt="" class='img-social-icon'></a>
             <a href="https://www.facebook.com/topofmindcommunication/?ref=br_rs" target='_blank'><img src="assets/img/FB.png" alt="" class='img-social-icon'></a>
             <a href="https://www.instagram.com/tomc_mx/?hl=es-la" target='_blank'><img src="assets/img/IN.png" alt="" class='img-social-icon'></a>
         </div>
